@@ -1,0 +1,27 @@
+imme: true(class C)
+ncrc: false
+freq: 
+rfch: 
+powe: 0 ,	<- rssi & lsnr
+modu: LORA  			FSK 
+	  datr:				datr:
+	  codr:				fdev:
+	  ipol: false		prea:
+	  prea: 8			
+size: 
+data: 
+
+
+imme: false(class A | B)
+tmst(class A): count_us + delay  |  tmms(class B): -> GPS
+ncrc: false
+freq: 
+rfch: 
+powe: 
+modu: LORA  			FSK 
+	  datr:(String)		datr:
+	  codr:				fdev:
+	  ipol:				prea:
+	  prea:				
+size: 
+data: 

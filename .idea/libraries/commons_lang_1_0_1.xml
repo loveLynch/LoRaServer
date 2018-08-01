@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="commons-lang-1.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ezmorph-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,149 @@
+*-------- 1 --------
+-------- 1 --------{"rxpk":[{"tmst":4294966873,"chan":5,"rfch":0,"freq":867.500000,"stat":1,"modu":"LORA",
+"datr":"SF7BW125","codr":"4/5","lsnr":-0.2,"rssi":-131,"size":23,"data":"QQ8PDw8ED/AP8PDw8PDw8PD///Dw8PA="}]}
+PUSH_DATA{"rxpk":[{"tmst":4294966873,"chan":5,"rfch":0,"freq":867.500000,"stat":1,"modu":"LORA",
+"datr":"SF7BW125","codr":"4/5","lsnr":-0.2,"rssi":-131,"size":23,"data":"QQ8PDw8ED/AP8PDw8PDw8PD///Dw8PA="}]}
+--------------0---------------
+time:null
+tmst:4.294966873E9
+chan:5
+rfch:0
+freq:867
+stat:1
+modu:LORA
+datr_lora:SF7BW125
+codr:4/5
+rssi:-131
+lsnr:0
+size:23
+0x41 0x0f 0x0f 0x0f 0x0f 0x04 0x0f 0xf0 0x0f 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xff 0xff 0xf0 0xf0 0xf0 0xf0 
+dao.DataBaseLoRaMod
+database lora
+===============:2
+======hello lora======
+devAddr:0x0f 0x0f 0x0f 0x0f 
+fctrl:4
+Fcnt:0x0f 0xf0 
+Fopts:0x0f 0xf0 0xf0 0xf0 
+Fport:0xf0 
+FRMPayload:0x44 0x70 0x97 0xc3 0x63 0x3b 0xf4 0x02 0x5e 0xf9 
+DevAddr
+fctrl
+Fcnt
+Fopts
+Fport
+FRMPayload
+DevAddr
+fctrl
+Fcnt
+Fopts
+Fport
+FRMPayload
+java.lang.ArrayIndexOutOfBoundsException*
+	at java.lang.System.arraycopy(Native Method)
+	at aes.LoRaMacCrypto.LoRaMacComputeMic(LoRaMacCrypto.java:143)
+	at phy.MicCaculate.MicCaculate(MicCaculate.java:33)
+	at phy.PhyConstruct.PhyPkt2Byte(PhyConstruct.java:26)
+	at socket.Socket_Server.run(Socket_Server.java:134)
+	at java.lang.Thread.run(Thread.java:745)
+-------- 2 --------
+-------- 2 --------{"rxpk":[{"tmst":4294966873,"chan":5,"rfch":0,"freq":867.500000,"stat":1,"modu":"LORA",
+"datr":"SF7BW125","codr":"4/5","lsnr":-0.2,"rssi":-131,"size":23,"data":"QQ8PDw8ED/AP8PDw8PDw8PD///Dw8PA="}]}
+PUSH_DATA{"rxpk":[{"tmst":4294966873,"chan":5,"rfch":0,"freq":867.500000,"stat":1,"modu":"LORA",
+"datr":"SF7BW125","codr":"4/5","lsnr":-0.2,"rssi":-131,"size":23,"data":"QQ8PDw8ED/AP8PDw8PDw8PD///Dw8PA="}]}
+--------------0---------------
+time:null
+tmst:4.294966873E9
+chan:5
+rfch:0
+freq:867
+stat:1
+modu:LORA
+datr_lora:SF7BW125
+codr:4/5
+rssi:-131
+lsnr:0
+size:23
+0x41 0x0f 0x0f 0x0f 0x0f 0x04 0x0f 0xf0 0x0f 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xff 0xff 0xf0 0xf0 0xf0 0xf0 
+dao.DataBaseLoRaMod
+database lora
+===============:2
+======hello lora======
+devAddr:0x0f 0x0f 0x0f 0x0f 
+fctrl:4
+Fcnt:0x0f 0xf0 
+Fopts:0x0f 0xf0 0xf0 0xf0 
+Fport:0xf0 
+FRMPayload:0x44 0x70 0x97 0xc3 0x63 0x3b 0xf4 0x02 0x5e 0xf9 
+DevAddr
+fctrl
+Fcnt
+Fopts
+Fport
+FRMPayload
+DevAddr
+fctrl
+Fcnt
+Fopts
+Fport
+FRMPayload
+java.lang.ArrayIndexOutOfBoundsException*
+	at java.lang.System.arraycopy(Native Method)
+	at aes.LoRaMacCrypto.LoRaMacComputeMic(LoRaMacCrypto.java:143)
+	at phy.MicCaculate.MicCaculate(MicCaculate.java:33)
+	at phy.PhyConstruct.PhyPkt2Byte(PhyConstruct.java:26)
+	at socket.Socket_Server.run(Socket_Server.java:134)
+	at java.lang.Thread.run(Thread.java:745)
+-------- 3 --------
+-------- 3 --------{"rxpk":[{"tmst":4294966873,"chan":5,"rfch":0,"freq":867.500000,"stat":1,"modu":"LORA",
+"datr":"SF7BW125","codr":"4/5","lsnr":-0.2,"rssi":-131,"size":23,"data":"QQ8PDw8ED/AP8PDw8PDw8PD///Dw8PA="}]}
+PUSH_DATA{"rxpk":[{"tmst":4294966873,"chan":5,"rfch":0,"freq":867.500000,"stat":1,"modu":"LORA",
+"datr":"SF7BW125","codr":"4/5","lsnr":-0.2,"rssi":-131,"size":23,"data":"QQ8PDw8ED/AP8PDw8PDw8PD///Dw8PA="}]}
+--------------0---------------
+time:null
+tmst:4.294966873E9
+chan:5
+rfch:0
+freq:867
+stat:1
+modu:LORA
+datr_lora:SF7BW125
+codr:4/5
+rssi:-131
+lsnr:0
+size:23
+0x41 0x0f 0x0f 0x0f 0x0f 0x04 0x0f 0xf0 0x0f 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xf0 0xff 0xff 0xf0 0xf0 0xf0 0xf0 
+dao.DataBaseLoRaMod
+database lora
+===============:2
+======hello lora======
+devAddr:0x0f 0x0f 0x0f 0x0f 
+fctrl:4
+Fcnt:0x0f 0xf0 
+Fopts:0x0f 0xf0 0xf0 0xf0 
+Fport:0xf0 
+FRMPayload:0x44 0x70 0x97 0xc3 0x63 0x3b 0xf4 0x02 0x5e 0xf9 
+DevAddr
+fctrl
+Fcnt
+Fopts
+Fport
+FRMPayload
+DevAddr
+fctrl
+Fcnt
+Fopts
+Fport
+FRMPayload
+java.lang.ArrayIndexOutOfBoundsException*
+	at java.lang.System.arraycopy(Native Method)
+	at aes.LoRaMacCrypto.LoRaMacComputeMic(LoRaMacCrypto.java:143)
+	at phy.MicCaculate.MicCaculate(MicCaculate.java:33)
+	at phy.PhyConstruct.PhyPkt2Byte(PhyConstruct.java:26)
+	at socket.Socket_Server.run(Socket_Server.java:134)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+
+
+
